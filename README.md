@@ -16,3 +16,8 @@ Get your free API key at https://console.groq.com
 ## Usage
 `python ingest.py yourfile.txt` or `python ingest.py yourfile.pdf`
 `python query.py`
+
+## Live app
+[Click here for the live app]
+(https://researchassist.streamlit.app/)
+Follow link for a live PhD assistant. You could upload PDF/TXT files and ask questions related to the documents, as well as receive the source of the answers.
