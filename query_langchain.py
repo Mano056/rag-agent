@@ -36,7 +36,7 @@ def build_qa_chain():
         | prompt
         | llm
     )
-    return chain
+    return chain, retriever
 
 
 if __name__ == "__main__":
