@@ -18,8 +18,7 @@ Get your free API key at https://console.groq.com
 `python query.py`
 
 ## Live app
-[Click here for the live PhD Assistant]
-(https://researchassist.streamlit.app/)
+[Click here for the live PhD Assistant](https://researchassist.streamlit.app/)
 
 Upload PDF or TXT files and ask questions related to your documents.
 Answers include the source document they came from.

@@ -24,7 +24,10 @@ def split_document(docs):
     )
     return splitter.split_documents(docs)
 
-def embed_and_store(chunks):
+def embed_and_store(chunks, filename=None):
+    if filename:
+        for chunk in chunks:
+            chunk.metadata["source"] = filename
     embeddings = HuggingFaceEmbeddings(
         model_name="all-MiniLM-L6-v2"
     )

@@ -27,7 +27,7 @@ if uploaded_files:
 
                 docs = load_document(tmp_path)
                 chunks = split_document(docs)
-                embed_and_store(chunks)
+                embed_and_store(chunks, filename=uploaded_file.name)
 
                 st.session_state.processed_files.append(uploaded_file.name)
                 os.unlink(tmp_path)
